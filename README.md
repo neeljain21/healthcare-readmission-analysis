@@ -9,7 +9,7 @@ EDA and prediction on diabetic patient readmissions using the UCI Diabetes 130-U
 - 101,766 patient encounters across 130 US hospitals
 - 50 columns: demographics, admission details, medications, diagnoses, readmission outcome
 - Target: `readmitted` — `<30` (within 30 days), `>30`, or `NO`
-- Dataset is gitignored (19MB) — download from [UCI ML Repository](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008)
+- Dataset not included (19MB) — download `diabetic_data.csv` from [UCI ML Repository](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008) and place it in `data/`
 
 ## Notebooks
 
@@ -29,7 +29,7 @@ EDA and prediction on diabetic patient readmissions using the UCI Diabetes 130-U
 ## How to Run
 
 ```bash
-pip install pandas numpy matplotlib seaborn scipy scikit-learn ucimlrepo notebook
+pip install pandas numpy matplotlib seaborn scipy scikit-learn notebook
 jupyter notebook hospital_readmission_analysis.ipynb
 jupyter notebook readmission_prediction.ipynb
 ```
